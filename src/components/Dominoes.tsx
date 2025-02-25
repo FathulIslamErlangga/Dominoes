@@ -1,5 +1,5 @@
 "use client";
-import dominoesHooks from "@/hooks/dominoes.hooks";
+import useDominoesHooks from "@/hooks/dominoes.hooks";
 import React from "react";
 
 const Dominoes = () => {
@@ -14,7 +14,7 @@ const Dominoes = () => {
     flipDomino,
     resetValueDomino,
     handleRemoveDuplicate,
-  } = dominoesHooks();
+  } = useDominoesHooks();
   return (
     <div className="mx-auto  flex flex-col w-[50%] gap-6 mt-10">
       <div className="bg-gray-100 rounded-md shadow-md  p-5">

@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 
-const dominoesHooks = () => {
+const useDominoesHooks = () => {
   const initialCard = [
     [1, 2],
     [1, 1],
@@ -85,4 +85,4 @@ const dominoesHooks = () => {
   };
 };
 
-export default dominoesHooks;
+export default useDominoesHooks;

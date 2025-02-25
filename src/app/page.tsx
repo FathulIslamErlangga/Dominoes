@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Dominoes from "../components/Dominoes";
 
 export default function Home() {
